@@ -45,7 +45,7 @@ void PrintMatrix(int[,] matrix)
 }
 
 
-void RealeseMatrix(int[,] matrix)
+void transposingMatrix(int[,] matrix)
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
@@ -71,6 +71,6 @@ int n = Convert.ToInt32(Console.ReadLine());
 int[,] matrix = new int[n, n];
 InputMatrix(matrix);
 PrintMatrix(matrix);
-RealeseMatrix(matrix);
+transposingMatrix(matrix);
 PrintMatrix(matrix);
 
